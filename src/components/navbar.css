@@ -1,0 +1,55 @@
+.Container{
+ 
+  background-color: #FFE475;
+  align-items: center;
+  position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.Wrapper {
+height: 14vh;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.LogoDiv {
+  height: 34px;
+  width: 77px;
+  background-color: white;
+  border-radius: 20%;
+  align-items: center;
+  position: relative;
+}
+
+span{
+    position: absolute;
+    padding: 0px 5px;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px){
+    .Container{
+        background: #FFF;
+        height: 80px;
+    }
+    .Wrapper{
+        height: 10vh;
+        padding: 10px 10px;
+    }
+}
